@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Connexion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="login-box">
+    <h1>Connexion</h1>
+
+    <input id="username" placeholder="Pseudo">
+    <input id="code" placeholder="Code" type="password">
+
+    <button onclick="login()">Se connecter</button>
+
+    <p id="error" class="error"></p>
+
+    <div class="info">
+        <p><strong>Admin :</strong> pseudo <code>admin</code> + code <code>admin123</code></p>
+        <p><strong>Utilisateur :</strong> code <code>1234</code></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

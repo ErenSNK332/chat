@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="chat-container">
+    <h2 id="userDisplay"></h2>
+
+    <div id="messages" class="messages"></div>
+
+    <div class="input-area">
+        <input id="msgInput" placeholder="Message...">
+        <button onclick="sendMessage()">Envoyer</button>
+    </div>
+
+    <button onclick="logout()" class="logout">Déconnexion</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
