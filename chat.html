@@ -10,6 +10,13 @@
 <div class="chat-container">
     <h2 id="userDisplay"></h2>
 
+    <div id="adminPanel" class="admin-panel" style="display:none;">
+        <h3>Admin</h3>
+        <input id="newSitePassword" placeholder="Nouveau mot de passe du site">
+        <button onclick="updateSitePassword()">Changer le mot de passe du site</button>
+        <button onclick="clearMessages()">Supprimer tous les messages</button>
+    </div>
+
     <div id="messages" class="messages"></div>
 
     <div class="input-area">
